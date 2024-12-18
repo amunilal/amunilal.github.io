@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Ashveer Munilal</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'shop' %}">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/polls">Polls</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>About Me</h2>
+                        <hr />
+                        <p>
+                            Though I had always been fascinated by coding since I was a young child, I quickly realized
+                            that my
+                            skills
+                            were more
+                            technical in nature after starting my career in 2009 as a graphic designer. After witnessing
+                            the
+                            creation of
+                            a very
+                            basic website, I fell in love. After that, I was like a dog without a bone, searching for my
+                            next
+                            move.
+                            I
+                            switched my
+                            attention from learning front-end to back-end development. With the introduction of new
+                            languages, I
+                            kept
+                            learning.
+                        </p>
+                        <p>
+                            Due to my genuine enjoyment of web/app development, multimedia, and design, I possess a
+                            clear,
+                            logical
+                            mind,
+                            a practical
+                            approach to problem solving, and the drive to see things through to completion.
+                        </p>
+                        <p>
+                            When I'm eager to overcome challenges and have a sharp eye for detail, it's easier to accept
+                            criticism
+                            and
+                            learn from my
+                            mistakes when I have an open mind. I've built databases and websites successfully in the
+                            past, and I
+                            can
+                            work both
+                            independently and cooperatively. In addition to having excellent technical and people
+                            skills, I am
+                            open
+                            to
+                            challenges
+                            that will help me grow and learn new things.
+                        </p>
+                        <p>
+                            I have over 8 years of experience as a professional full-stack developer, and I have also
+                            built
+                            mobile
+                            apps
+                            and
+                            developed my Android engineering skills.
+                        </p>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Copyright &copy; Ashveer Munilal
+                    <!-- Display current year -->
+                    <script>document.write(new Date().getFullYear())</script>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
