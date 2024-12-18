@@ -28,4 +28,4 @@ jobs:
         pip install virtualenvwrapper
     - name: Run Tests
       run: |
-        python manage.py runserver 8080
+        ssh amunilal.github.io/mySite python manage.py runserver
